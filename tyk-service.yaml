@@ -5,7 +5,7 @@ metadata:
     name: tyk-service
   name: tyk-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
     # The port that this service should serve on.
     - port: 8080
